@@ -1555,7 +1555,7 @@ define Device/mercury_mw4530r-v1
   DEVICE_VENDOR := Mercury
   DEVICE_MODEL := MW4530R
   DEVICE_VARIANT := v1
-  DEVICE_PACKAGES := kmod-usb2 kmod-usb-ledtrig-usbport
+  DEVICE_PACKAGES := kmod-usb2 kmod-usb-ledtrig-usbport kmod-usb-core kmod-usb-ohci kmod-usb-uhci kmod-usb-net kmod-usb-net-cdc-ether kmod-usb-net-rndis kmod-usb-net-asix kmod-usb-net-rtl8152 kmod-usb-net-cdc-ncm usb-modeswitch kmod-usb-net-qmi-wwan kmod-usb-serial-option 
   TPLINK_HWID := 0x45300001
   SUPPORTED_DEVICES += tl-wdr4300
 endef
