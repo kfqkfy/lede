@@ -62,6 +62,7 @@ jobs:
           CONFIG_PACKAGE_kmod-mac80211=y
           CONFIG_PACKAGE_kmod-mii=y
           CONFIG_PACKAGE_kmod-eth=y
+          CONFIG_PACKAGE_swconfig=y
 
           EOF
 
