@@ -10,9 +10,6 @@ jobs:
     steps:
       - name: Checkout Lean OpenWrt
         uses: actions/checkout@v4
-        with:
-          repository: coolsnowwolf/lede
-          ref: master
 
       - name: Update feeds and install
         run: |
@@ -83,4 +80,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: MW4530R-USB-Firmware-Lean
-          path: bin/targets/ath79/generic/*sysupgrade*.bin
+          path: bin/targets/ath79/generic/*.bin
